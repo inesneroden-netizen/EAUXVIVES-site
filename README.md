@@ -10,20 +10,20 @@ laboratoire EAUXVIVES — Genève.
 - `css/style.css` — styles
 - `js/main.js` — navigation mobile, animations au scroll, envoi du formulaire
 
-## Activer le formulaire de contact
+## Formulaire de contact
 
 Le formulaire utilise [Formspree](https://formspree.io) (gratuit jusqu'à 50
 envois/mois) pour recevoir les demandes par email sans backend à héberger.
+Il est déjà connecté à l'endpoint `https://formspree.io/f/moeqwjdv`
+(destinataire : `info@labec.ch`).
 
-1. Créer un compte sur https://formspree.io et un nouveau formulaire.
-2. Renseigner l'email de réception : `info@labec.ch`.
-3. Copier l'identifiant de formulaire fourni par Formspree (ex. `xyzabcde`).
-4. Dans `index.html`, remplacer `YOUR_FORM_ID` dans l'attribut `action` du
-   formulaire (`<form ... action="https://formspree.io/f/YOUR_FORM_ID">`)
-   par cet identifiant.
+L'envoi se fait en AJAX via `fetch()` dans `js/main.js` (soumission sans
+rechargement de page, message de succès/erreur affiché sous le bouton).
+Aucune dépendance externe n'est nécessaire — le site reste 100% statique.
 
-Tant que `YOUR_FORM_ID` n'est pas remplacé, le formulaire affiche un message
-indiquant qu'il n'est pas encore activé, sans erreur silencieuse.
+Pour changer de formulaire Formspree à l'avenir, il suffit de remplacer
+l'identifiant `moeqwjdv` dans l'attribut `action` du `<form>` de
+`index.html`.
 
 ## Coordonnées à vérifier / compléter
 

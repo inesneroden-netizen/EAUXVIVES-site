@@ -65,13 +65,6 @@
       event.preventDefault();
 
       var action = form.getAttribute("action") || "";
-      if (action.indexOf("YOUR_FORM_ID") !== -1) {
-        status.textContent =
-          "Formulaire non encore activé : remplacez YOUR_FORM_ID par votre identifiant Formspree dans index.html.";
-        status.className = "form-status error";
-        return;
-      }
-
       var submitBtn = form.querySelector("button[type=submit]");
       var data = new FormData(form);
 
