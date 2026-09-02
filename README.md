@@ -15,7 +15,7 @@ laboratoire EAUXVIVES — Genève.
 Le formulaire utilise [Formspree](https://formspree.io) (gratuit jusqu'à 50
 envois/mois) pour recevoir les demandes par email sans backend à héberger.
 Il est déjà connecté à l'endpoint `https://formspree.io/f/moeqwjdv`
-(destinataire : `info@labec.ch`).
+(destinataire : `info@labev.ch`).
 
 L'envoi se fait en AJAX via `fetch()` dans `js/main.js` (soumission sans
 rechargement de page, message de succès/erreur affiché sous le bouton).

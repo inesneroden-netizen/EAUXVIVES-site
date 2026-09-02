@@ -94,7 +94,7 @@
         })
         .catch(function () {
           status.textContent =
-            "L'envoi a échoué. Merci de réessayer ou de nous écrire directement à info@labec.ch.";
+            "L'envoi a échoué. Merci de réessayer ou de nous écrire directement à info@labev.ch.";
           status.className = "form-status error";
         })
         .finally(function () {
