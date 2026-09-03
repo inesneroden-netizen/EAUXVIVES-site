@@ -17,15 +17,15 @@ laboratoire EAUXVIVES — Genève.
 
 ## Typographie
 
-- **Fraunces** (titres) — via Google Fonts
-- **Satoshi** (texte courant) — via [Fontshare](https://www.fontshare.com/fonts/satoshi),
-  chargée en police variable pour couvrir tous les poids utilisés (300 à 700)
+- **General Sans** (titres) — via [Fontshare](https://www.fontshare.com/fonts/general-sans)
+- **Satoshi** (texte courant) — via [Fontshare](https://www.fontshare.com/fonts/satoshi)
 
-Les deux sont chargées via CDN (aucun fichier de police dans le dépôt). Pour
+Les deux sont chargées en une seule requête (police variable, tous poids
+utilisés couverts) via CDN — aucun fichier de police dans le dépôt. Pour
 s'affranchir de la dépendance à Fontshare, il est possible d'auto-héberger
-Satoshi : télécharger les fichiers `.woff2` depuis fontshare.com, les placer
-dans `assets/fonts/`, remplacer les `<link>` Fontshare par des règles
-`@font-face` pointant vers ces fichiers dans `css/style.css`.
+les deux polices : télécharger les fichiers `.woff2` depuis fontshare.com,
+les placer dans `assets/fonts/`, remplacer les `<link>` Fontshare par des
+règles `@font-face` pointant vers ces fichiers dans `css/style.css`.
 
 ## Formulaire de contact
 
