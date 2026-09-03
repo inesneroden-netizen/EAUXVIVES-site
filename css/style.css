@@ -211,13 +211,14 @@ p:last-child { margin-bottom: 0; }
 .jet-spray path {
   fill: none;
   stroke: var(--aqua-500);
-  stroke-width: 2.4;
+  stroke-width: 2.6;
   stroke-linecap: round;
-  opacity: 0.4;
+  opacity: 0.5;
 }
-.jet-spray path:nth-child(3) { stroke-width: 3.2; opacity: 0.55; }
-.jet-spray path:nth-child(2), .jet-spray path:nth-child(4) { opacity: 0.48; }
-.jet-spray path:nth-child(6), .jet-spray path:nth-child(7) { stroke-width: 1.8; opacity: 0.3; }
+.jet-spray path:first-child { stroke-width: 1.8; opacity: 0.35; }
+.jet-spray path:nth-child(2), .jet-spray path:nth-child(5) { opacity: 0.5; }
+.jet-spray path:nth-child(3), .jet-spray path:nth-child(6) { opacity: 0.4; }
+.jet-spray path:nth-child(4), .jet-spray path:nth-child(7) { stroke-width: 2; opacity: 0.28; }
 .wave { fill: var(--aqua-300); opacity: 0.35; }
 .wave-2 { fill: var(--aqua-500); opacity: 0.28; }
 .wave-3 { fill: var(--teal-700); opacity: 0.15; }
