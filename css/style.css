@@ -137,13 +137,13 @@ p:last-child { margin-bottom: 0; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 96px;
+  height: 118px;
 }
 
 .logo { display: flex; align-items: center; }
 .logo-full {
   display: block;
-  height: 72px;
+  height: 96px;
   width: auto;
   color: var(--teal-900);
   transition: opacity .25s;
@@ -210,7 +210,7 @@ p:last-child { margin-bottom: 0; }
 .wave-2 { fill: var(--aqua-500); opacity: 0.28; }
 .wave-3 { fill: var(--teal-700); opacity: 0.15; }
 
-.hero-inner { position: relative; z-index: 1; padding-top: 96px; }
+.hero .hero-inner { position: relative; z-index: 1; padding-top: 118px; }
 
 .trust-badge {
   display: inline-flex;
@@ -429,7 +429,7 @@ p:last-child { margin-bottom: 0; }
   flex-wrap: wrap;
   gap: 24px;
 }
-.site-footer .logo-full { color: #fff; height: 50px; }
+.site-footer .logo-full { color: #fff; height: 64px; }
 .footer-nav { display: flex; gap: 26px; flex-wrap: wrap; }
 .footer-nav a { font-size: 0.88rem; color: rgba(255,255,255,0.75); }
 .footer-nav a:hover { color: #fff; }
@@ -463,7 +463,7 @@ p:last-child { margin-bottom: 0; }
 
   .main-nav {
     position: fixed;
-    top: 96px; left: 0; right: 0;
+    top: 118px; left: 0; right: 0;
     background: var(--paper);
     border-bottom: 1px solid var(--line);
     flex-direction: column;
