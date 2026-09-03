@@ -9,6 +9,11 @@ laboratoire EAUXVIVES — Genève.
 - `mentions-legales.html` — mentions légales
 - `css/style.css` — styles
 - `js/main.js` — navigation mobile, animations au scroll, envoi du formulaire
+- `assets/logo.svg` — logo officiel (source vectorielle), inliné directement
+  dans l'en-tête et le pied de page d'`index.html` et `mentions-legales.html`
+  pour permettre la recoloration via `currentColor` (teal en en-tête, blanc
+  en pied de page). Le favicon est une version recadrée du seul emblème
+  (les deux cygnes), encodée en data URI dans la balise `<link rel="icon">`.
 
 ## Formulaire de contact
 
