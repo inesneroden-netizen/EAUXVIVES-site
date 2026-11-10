@@ -82,14 +82,14 @@ p:last-child { margin-bottom: 0; }
   font-weight: 600;
   margin: 0 0 18px;
 }
-.eyebrow-light { color: var(--aqua-300); }
+.eyebrow-light { color: var(--gold-500); }
 
 .lede {
   font-size: 1.15rem;
   color: var(--ink-soft);
   max-width: 46ch;
 }
-.lede-light { color: rgba(255,255,255,0.78); }
+.lede-light { color: var(--ink-soft); }
 
 /* ---------- Buttons ---------- */
 .btn {
@@ -211,7 +211,7 @@ p:last-child { margin-bottom: 0; }
   width: 280px;
   height: 151px;
 }
-.hero-ripples circle { stroke: var(--aqua-300); }
+.hero-ripples circle { stroke: var(--aqua-500); }
 
 .hero .hero-inner { position: relative; z-index: 1; padding-top: 140px; }
 
@@ -326,10 +326,10 @@ p:last-child { margin-bottom: 0; }
 .offer-card:last-child h3 { grid-column: 2; grid-row: 1; margin-bottom: 4px; }
 .offer-card:last-child p { grid-column: 2; grid-row: 2; max-width: 60ch; }
 
-/* ---------- Specialisation (dark split) ---------- */
+/* ---------- Specialisation ---------- */
 .section-dark {
-  background: var(--teal-900);
-  color: #fff;
+  background: #D7D9D8;
+  color: var(--ink);
   padding: 130px 0;
 }
 .split-feature {
@@ -338,7 +338,7 @@ p:last-child { margin-bottom: 0; }
 }
 .split-feature-text { max-width: 640px; text-align: center; }
 .split-feature-text .eyebrow { display: block; text-align: center; }
-.split-feature-text h2 { color: #fff; margin-bottom: 24px; }
+.split-feature-text h2 { color: var(--ink); margin-bottom: 24px; }
 .split-feature-text .lede { max-width: none; margin: 0 auto; }
 .feature-list {
   list-style: none;
@@ -352,7 +352,7 @@ p:last-child { margin-bottom: 0; }
   position: relative;
   padding-left: 26px;
   font-size: 0.98rem;
-  color: rgba(255,255,255,0.88);
+  color: var(--ink-soft);
 }
 .feature-list li::before {
   content: "";
