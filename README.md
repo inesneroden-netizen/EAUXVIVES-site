@@ -17,15 +17,15 @@ laboratoire EAUXVIVES — Genève.
 
 ## Typographie
 
-- **General Sans** (titres) — via [Fontshare](https://www.fontshare.com/fonts/general-sans)
+- **Ancizar Sans** (titres) — via [Google Fonts](https://fonts.google.com/specimen/Ancizar+Sans)
 - **Satoshi** (texte courant) — via [Fontshare](https://www.fontshare.com/fonts/satoshi)
 
-Les deux sont chargées en une seule requête (police variable, tous poids
-utilisés couverts) via CDN — aucun fichier de police dans le dépôt. Pour
-s'affranchir de la dépendance à Fontshare, il est possible d'auto-héberger
-les deux polices : télécharger les fichiers `.woff2` depuis fontshare.com,
-les placer dans `assets/fonts/`, remplacer les `<link>` Fontshare par des
-règles `@font-face` pointant vers ces fichiers dans `css/style.css`.
+Chargées via deux CDN distincts (Google Fonts pour Ancizar Sans, Fontshare
+pour Satoshi) — aucun fichier de police dans le dépôt. Pour s'affranchir de
+cette dépendance, il est possible d'auto-héberger les deux polices :
+télécharger les fichiers `.woff2` depuis fonts.google.com et fontshare.com,
+les placer dans `assets/fonts/`, remplacer les `<link>` par des règles
+`@font-face` pointant vers ces fichiers dans `css/style.css`.
 
 ## Formulaire de contact
 
