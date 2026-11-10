@@ -11,16 +11,16 @@ laboratoire EAUXVIVES — Genève.
 - `js/main.js` — navigation mobile, animations au scroll, envoi du formulaire
 - `assets/logo.svg` — logo officiel (source vectorielle), inliné directement
   dans l'en-tête et le pied de page d'`index.html` et `mentions-legales.html`
-  pour permettre la recoloration via `currentColor` (teal en en-tête, blanc
+  pour permettre la recoloration via `currentColor` (noir en en-tête, blanc
   en pied de page). Le favicon est une version recadrée du seul emblème
   (les deux cygnes), encodée en data URI dans la balise `<link rel="icon">`.
 
 ## Typographie
 
-- **Ancizar Sans** (titres) — via [Google Fonts](https://fonts.google.com/specimen/Ancizar+Sans)
+- **Ancizar Serif** (titres) — via [Google Fonts](https://fonts.google.com/specimen/Ancizar+Serif)
 - **Satoshi** (texte courant) — via [Fontshare](https://www.fontshare.com/fonts/satoshi)
 
-Chargées via deux CDN distincts (Google Fonts pour Ancizar Sans, Fontshare
+Chargées via deux CDN distincts (Google Fonts pour Ancizar Serif, Fontshare
 pour Satoshi) — aucun fichier de police dans le dépôt. Pour s'affranchir de
 cette dépendance, il est possible d'auto-héberger les deux polices :
 télécharger les fichiers `.woff2` depuis fonts.google.com et fontshare.com,

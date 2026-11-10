@@ -3,20 +3,20 @@
    ============================================================ */
 
 :root {
-  --ink: #1c2420;
-  --ink-soft: #4a564f;
-  --paper: #f7f5ef;
-  --paper-alt: #efece2;
-  --line: #dedad0;
+  --ink: #121212;
+  --ink-soft: #57575b;
+  --paper: #fcfbfa;
+  --paper-alt: #efefed;
+  --line: #dcdcda;
 
-  --teal-900: #0f2b26;
-  --teal-800: #16382f;
-  --teal-700: #1f4a3d;
-  --aqua-500: #6fab98;
-  --aqua-300: #a9cdbe;
-  --gold-500: #9c6425;
+  --teal-900: #0d0d0d;
+  --teal-800: #1a1a1a;
+  --teal-700: #333333;
+  --aqua-500: #9a9a96;
+  --aqua-300: #d6d6d2;
+  --gold-500: #b5601f;
 
-  --font-display: "Ancizar Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: "Ancizar Serif", Georgia, "Times New Roman", serif;
   --font-body: "Satoshi", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 
   --wrap: 1180px;
